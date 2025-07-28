@@ -1,0 +1,41 @@
+
+appId: com.ecommerce
+---
+
+- launchApp:
+    clearState: true
+
+- assertVisible: "Bienvenido"
+
+- tapOn:
+    id: "username_input"
+- inputText: "testuser"
+
+- tapOn:
+    id: "password_input"    
+- inputText: "testuser"
+
+- tapOn:
+    id: "login_button"    
+
+- tapOn:
+    point: "17%,22%"
+
+- tapOn:
+    id: "add_to_cart_button"
+- assertVisible: "Éxito"  
+
+- assertVisible: "Laptop Pro 15\" ha sido añadido al carrito."
+- tapOn:
+    id: "android:id/button1"
+
+
+
+
+- tapOn:
+    point: "17%,34%"
+- tapOn:
+    id: "add_to_cart_button"  
+- assertVisible: "Smartphone X ha sido añadido al carrito."   
+- tapOn:
+    id: "android:id/button1"    
