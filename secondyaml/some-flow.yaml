@@ -4,8 +4,10 @@ appId: com.ecommerce
 - tapOn:
     id: "add_to_cart_button" 
 - tapOn:
-    id: "android:id/button1"       
+    id: "android:id/button1"
+- takeScreenshot:
+    path: LoginScreen # screenshot will be stored as LoginScreen.png
+        
 
-  
 - tapOn:
     id: "cart_button"
