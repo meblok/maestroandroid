@@ -46,5 +46,13 @@ appId: com.ecommerce
 - setAirplaneMode: enabled
 - setAirplaneMode: disabled
 
+- tapOn:
+    point: "17%,46%"
+
+- runFlow:
+    when:
+      visible: 'Añadir al carrito'
+    file: secondyaml/some-flow.yaml
+
 
 - stopApp    

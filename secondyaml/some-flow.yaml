@@ -1,0 +1,11 @@
+
+appId: com.ecommerce
+---
+- tapOn:
+    id: "add_to_cart_button" 
+- tapOn:
+    id: "android:id/button1"       
+
+  
+- tapOn:
+    id: "cart_button"
