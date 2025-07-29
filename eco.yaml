@@ -39,3 +39,12 @@ appId: com.ecommerce
 - assertVisible: "Smartphone X ha sido añadido al carrito."   
 - tapOn:
     id: "android:id/button1"    
+
+
+
+
+- setAirplaneMode: enabled
+- setAirplaneMode: disabled
+
+
+- stopApp    
